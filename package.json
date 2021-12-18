@@ -1,0 +1,15 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "biblioteca do curso de js com tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jss",
+    "tdd"
+  ],
+  "author": "João Scaravonatti <jvscaravonatti@gmail.com>",
+  "license": "MIT"
+}

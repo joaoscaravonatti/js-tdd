@@ -11,5 +11,8 @@
     "tdd"
   ],
   "author": "João Scaravonatti <jvscaravonatti@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gitignore": "^0.7.0"
+  }
 }

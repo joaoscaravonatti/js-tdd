@@ -4,7 +4,9 @@
   "description": "biblioteca do curso de js com tdd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "keywords": [
     "jss",
@@ -13,6 +15,10 @@
   "author": "João Scaravonatti <jvscaravonatti@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gitignore": "^0.7.0"
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "gitignore": "^0.7.0",
+    "husky": "^7.0.0"
   }
 }
